@@ -2,9 +2,14 @@ package com.sicred.votacao.domain.user.controller.request;
 
 import com.sicred.votacao.domain.user.model.Associate;
 
+import javax.validation.constraints.NotBlank;
+
 public class AssociateRequest {
+
+    @NotBlank
     private final String cpf;
 
+    @NotBlank
     private final String name;
 
 
