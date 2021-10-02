@@ -22,9 +22,14 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.flywaydb:flyway-core'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'javax.validation:validation-api:2.0.1.Final'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.mockito:mockito-inline:3.7.7'
+	testImplementation 'org.mockito:mockito-core:3.7.7'
+	testImplementation 'org.mockito:mockito-junit-jupiter:3.7.7'
 }
 
 dependencyManagement {
