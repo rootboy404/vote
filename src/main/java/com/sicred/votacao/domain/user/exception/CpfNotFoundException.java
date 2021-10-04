@@ -8,12 +8,15 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 @ResponseStatus(NOT_FOUND)
 public class CpfNotFoundException extends IllegalArgumentException implements TranslatableArguments {
 
-    public CpfNotFoundException() {
+    private final String cpf;
+
+    public CpfNotFoundException(String cpf) {
         super("associate.cpf.not.found");
+        this.cpf = cpf;
     }
 
     @Override
     public String[] arguments() {
-        return new String[0];
+        return new String[]{cpf};
     }
 }

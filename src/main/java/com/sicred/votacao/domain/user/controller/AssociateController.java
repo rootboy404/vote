@@ -7,7 +7,6 @@ import com.sicred.votacao.domain.user.controller.response.AssociateResponse;
 import com.sicred.votacao.domain.user.model.Associate;
 import com.sicred.votacao.domain.user.service.AssociateService;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.Authorization;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,8 +30,8 @@ public class AssociateController {
     @PostMapping
     @ApiOperation(value = "Criar um novo associado")
     public AssociateResponse createUser(@Valid @RequestBody  AssociateRequest associateRequest){
-        Associate associateSave = associateService.save(associateRequest.toAssociate());
-        return AssociateResponse.of(associateSave);
+        Associate associateSaved = associateService.save(associateRequest.toAssociate());
+        return AssociateResponse.of(associateSaved);
     }
 
     @GetMapping("/{cpf}")

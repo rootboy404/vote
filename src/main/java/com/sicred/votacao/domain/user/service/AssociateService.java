@@ -19,7 +19,7 @@ public class AssociateService {
     }
 
     public Associate findUserByCpf(String cpf){
-       return associateRepository.findByCpf(cpf).orElseThrow(CpfNotFoundException::new);
+       return associateRepository.findByCpf(cpf).orElseThrow(()-> new CpfNotFoundException(cpf));
     }
 
 
