@@ -1,6 +1,6 @@
-package com.sicred.votacao.domain.user.controller.response;
+package com.sicred.votacao.domain.associate.controller.response;
 
-import com.sicred.votacao.domain.user.model.Associate;
+import com.sicred.votacao.domain.associate.model.Associate;
 
 public class AssociateResponse {
 

@@ -1,16 +1,10 @@
-package com.sicred.votacao.domain.user.model;
+package com.sicred.votacao.domain.associate.model;
 
-import com.sicred.votacao.domain.session.model.Session;
-
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import java.util.List;
 
 
 @Entity
@@ -28,6 +22,7 @@ public class Associate {
     private String name;
 
 
+    //default constructor for hibernate
     public Associate() {
     }
 

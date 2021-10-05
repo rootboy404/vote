@@ -1,7 +1,7 @@
 package com.sicred.votacao.domain.session.controller.request;
 
 import com.sicred.votacao.domain.session.model.Session;
-import com.sicred.votacao.domain.user.model.Associate;
+import com.sicred.votacao.domain.associate.model.Associate;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

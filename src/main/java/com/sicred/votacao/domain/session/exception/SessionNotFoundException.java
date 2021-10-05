@@ -7,6 +7,7 @@ public class SessionNotFoundException extends IllegalArgumentException implement
     private final Long id;
 
     public SessionNotFoundException(Long id) {
+        super("session.not.found");
         this.id = id;
     }
 

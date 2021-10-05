@@ -1,4 +1,4 @@
-package com.sicred.votacao.domain.user.exception;
+package com.sicred.votacao.domain.associate.exception;
 
 import com.sicred.votacao.infra.exception.TranslatableArguments;
 import org.springframework.web.bind.annotation.ResponseStatus;

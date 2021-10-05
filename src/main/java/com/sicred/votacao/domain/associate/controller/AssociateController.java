@@ -1,11 +1,11 @@
-package com.sicred.votacao.domain.user.controller;
+package com.sicred.votacao.domain.associate.controller;
 
 
 
-import com.sicred.votacao.domain.user.controller.request.AssociateRequest;
-import com.sicred.votacao.domain.user.controller.response.AssociateResponse;
-import com.sicred.votacao.domain.user.model.Associate;
-import com.sicred.votacao.domain.user.service.AssociateService;
+import com.sicred.votacao.domain.associate.controller.request.AssociateRequest;
+import com.sicred.votacao.domain.associate.controller.response.AssociateResponse;
+import com.sicred.votacao.domain.associate.model.Associate;
+import com.sicred.votacao.domain.associate.service.AssociateService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

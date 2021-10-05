@@ -1,4 +1,4 @@
-package com.sicred.votacao.domain.session.service;
+package com.sicred.votacao.domain.session.repository;
 
 import com.sicred.votacao.domain.session.model.Session;
 import org.springframework.data.jpa.repository.JpaRepository;

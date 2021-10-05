@@ -1,6 +1,6 @@
-package com.sicred.votacao.domain.user.repository;
+package com.sicred.votacao.domain.associate.repository;
 
-import com.sicred.votacao.domain.user.model.Associate;
+import com.sicred.votacao.domain.associate.model.Associate;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

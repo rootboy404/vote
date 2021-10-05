@@ -1,8 +1,8 @@
-package com.sicred.votacao.domain.user.service;
+package com.sicred.votacao.domain.associate.service;
 
-import com.sicred.votacao.domain.user.exception.CpfNotFoundException;
-import com.sicred.votacao.domain.user.model.Associate;
-import com.sicred.votacao.domain.user.repository.AssociateRepository;
+import com.sicred.votacao.domain.associate.exception.CpfNotFoundException;
+import com.sicred.votacao.domain.associate.model.Associate;
+import com.sicred.votacao.domain.associate.repository.AssociateRepository;
 import org.springframework.stereotype.Service;
 
 @Service

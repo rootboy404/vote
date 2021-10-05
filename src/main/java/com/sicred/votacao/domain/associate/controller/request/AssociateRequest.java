@@ -1,6 +1,6 @@
-package com.sicred.votacao.domain.user.controller.request;
+package com.sicred.votacao.domain.associate.controller.request;
 
-import com.sicred.votacao.domain.user.model.Associate;
+import com.sicred.votacao.domain.associate.model.Associate;
 
 import javax.validation.constraints.NotBlank;
 
